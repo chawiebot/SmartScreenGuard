@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background circle -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#EFEFEF" /> <!-- Background color -->
+        </shape>
+    </item>
+
+    <!-- Donut chart overlay -->
+    <item>
+        <rotate
+            android:fromDegrees="270"
+            android:toDegrees="270"
+            android:pivotX="50%"
+            android:pivotY="50%">
+            <shape android:shape="ring"
+                android:innerRadiusRatio="3"
+                android:thicknessRatio="0.2"
+                android:useLevel="true">
+                <gradient
+                    android:type="sweep"
+                    android:startColor="#FF5733" /> <!-- Start color -->
+                android:endColor="#33C9FF" <!-- End color -->
+                android:angle="360" />
+            </shape>
+        </rotate>
+    </item>
+
+</layer-list>
