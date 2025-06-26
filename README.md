@@ -1,4 +1,4 @@
-# PathFinderMore actions
+# Smart Screen Guard features
 
 ![Graphical feature](https://raw.githubusercontent.com/chawiebot/SmartScreenGuard/refs/heads/main/file5.webp)
 
