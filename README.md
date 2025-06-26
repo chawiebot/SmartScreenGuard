@@ -17,11 +17,11 @@ Smart Screen Guard is a user-friendly Android application developed to promote d
   
 
 ## Features
-### 1. Dashboard and Apps 
+### 1. Dashboard and Applications for Monitoring
 ![Dashboard and Apps](https://github.com/chawiebot/SmartScreenGuard/blob/main/file1.jpg?raw=true)
-### 2. Autolocking, Appblocking, Appblockkeywords
+### 2. Auto Lock, App Block, App Block Keywords
 ![Auto Lock, App Block, App Block Keywords](https://github.com/chawiebot/SmartScreenGuard/blob/main/file2.jpg?raw=true)
-### 3. Setting Permission
+### 3. Settings Permission to full function
 ![Settings Permission](https://github.com/chawiebot/SmartScreenGuard/blob/main/file3.jpg?raw=true)
 ### 4. Overlay Appearing if the app is Blocked 
 ![Overlay Block](https://github.com/chawiebot/SmartScreenGuard/blob/main/file4.jpg?raw=true)
