@@ -5,7 +5,7 @@
 Smart Screen Guard is an Android app designed to help users manage and reduce their screen time. It tracks app usage, displays screen time statistics, and offers features like app blocking and focus mode. With Smart Screen Guard, users can build healthier digital habits by staying focused, limiting distractions, and making more mindful use of their devices.
 ## Overview
 Smart Screen Guard is a user-friendly Android application developed to promote digital well-being and responsible device usage. In today's fast-paced digital world, it's easy to lose track of time spent on smartphones. Smart Screen Guard helps users regain control by monitoring screen time, tracking app usage, and offering powerful tools like app blocking and focus modes. Whether you're aiming to improve productivity, limit distractions, or encourage healthy screen habits, Smart Screen Guard provides a smart and simple solution to help you stay balanced and focused.
-![Menu]()
+![Menu](https://github.com/chawiebot/SmartScreenGuard/blob/main/ipads.png?raw=true)
 
 ## Requirements
 *   Minimum Android Version: Android 6.0 (Marshmallow) or higher
