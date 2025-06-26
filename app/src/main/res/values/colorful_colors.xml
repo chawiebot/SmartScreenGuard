@@ -1,0 +1,7 @@
+<resources>
+    <color name="color1">#FFC107</color> <!-- Amber -->
+    <color name="color2">#FF5722</color> <!-- Deep Orange -->
+    <color name="color3">#4CAF50</color> <!-- Green -->
+    <color name="color4">#2196F3</color> <!-- Blue -->
+    <color name="color5">#9C27B0</color> <!-- Purple -->
+</resources>

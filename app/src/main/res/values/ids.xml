@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="pie_chart" type="id" />
+    <item name="no_data_text" type="id" />
+    <item name="fragment_container" type="id" />
+    <item name="tv_app_title" type="id" />
+</resources>

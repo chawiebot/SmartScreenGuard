@@ -27,6 +27,7 @@ android {
             )
         }
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
@@ -44,13 +45,17 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
 
     // Firebase BoM (Bill of Materials)
-    implementation(platform("com.google.firebase:firebase-bom:31.1.1"))  // Optional, if you want to manage other Firebase dependencies with BoM
+    implementation(platform("com.google.firebase:firebase-bom:31.1.1")) // Optional for Firebase dependency management
 
-    // Explicitly specify the version of Firebase Authentication
+    // Firebase Authentication
     implementation("com.google.firebase:firebase-auth:23.1.0")
+
     implementation(libs.androidx.lifecycle.livedata.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
-    implementation(libs.androidx.fragment.ktx)
+
+    // MPAndroidChart Library
+    implementation("com.github.PhilJay:MPAndroidChart:v3.1.0")
+    implementation(libs.androidx.recyclerview) // Add this for charts
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

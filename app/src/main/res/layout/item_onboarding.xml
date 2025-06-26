@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/onboarding_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <!-- Fullscreen Image -->
+    <ImageView
+        android:id="@+id/imageOnboarding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/onboarding_image"
+        android:scaleType="centerCrop" />
+
+    <!-- Text and Button Overlay -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal"
+        android:background="@android:color/transparent">
+
+        <TextView
+            android:id="@+id/textOnboarding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to SmartScreenGuard!"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/buttonGetStarted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Started"
+            android:visibility="gone"
+            android:backgroundTint="@color/blue"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</FrameLayout>

@@ -3,20 +3,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:background="#FFFFFF">
+    android:background="#4C9DB0">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:paddingTop="24dp">
+
+        <!-- App Title -->
+        <TextView
+            android:id="@+id/tv_app_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smart Screen Guard"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:textColor="#000000" />
 
         <!-- Logo -->
         <ImageView
             android:id="@+id/logo"
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@drawable/ic_baby"
+            android:src="@drawable/ic_logo"
             android:contentDescription="App Logo"
             android:layout_marginBottom="16dp" />
 
@@ -85,7 +97,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Sign in"
-            android:backgroundTint="#8A2BE2"
+            android:backgroundTint="#FFC107"
             android:textColor="#FFFFFF"
             android:layout_marginBottom="16dp" />
 
@@ -99,28 +111,5 @@
             android:layout_gravity="center"
             android:layout_marginBottom="24dp" />
 
-        <!-- Social Media Icons -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center_horizontal"
-            android:layout_marginTop="16dp">
-
-            <ImageView
-                android:id="@+id/iv_gmail"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:src="@drawable/ic_gmail"
-                android:contentDescription="Gmail"
-                android:layout_marginEnd="16dp" />
-
-            <ImageView
-                android:id="@+id/iv_facebook"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:src="@drawable/ic_facebook"
-                android:contentDescription="Facebook" />
-        </LinearLayout>
     </LinearLayout>
 </ScrollView>

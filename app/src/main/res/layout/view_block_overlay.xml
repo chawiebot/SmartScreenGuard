@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/overlay_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#D32F2F"
+    android:padding="32dp">
+
+    <!-- Icon to visually indicate blocking -->
+    <ImageView
+        android:src="@drawable/ic_block"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:contentDescription="Blocked Icon"
+        android:layout_marginBottom="24dp"
+        app:tint="#FFFFFF" />
+
+    <TextView
+        android:text="This app is blocked"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+
+    <TextView
+        android:text="Stay focused and return to your task."
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center" />
+
+    <!-- Dismiss Button -->
+    <Button
+        android:id="@+id/btnDismiss"
+        android:text="Back to Home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textColor="#D32F2F"
+        android:backgroundTint="#FFFFFF"
+        android:textStyle="bold"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:elevation="4dp" />
+</LinearLayout>

@@ -5,7 +5,39 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    android:gravity="center_horizontal">
+    android:gravity="center_horizontal"
+    android:background="#4C9DB0">
+
+    <!-- App Title -->
+    <TextView
+        android:id="@+id/tv_app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Smart Screen Guard"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:textColor="#000000" />
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_logo"
+        android:contentDescription="App Logo"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Signup Title -->
+    <TextView
+        android:id="@+id/tv_login_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGNUP"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:textColor="#000000" />
 
     <!-- Email EditText -->
     <EditText
@@ -21,17 +53,61 @@
         android:contentDescription="Email input field" />
 
     <!-- Password EditText -->
-    <EditText
-        android:id="@+id/et_password"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:padding="12dp"
-        android:background="@drawable/edittext_background"
-        android:layout_marginBottom="8dp"
-        android:importantForAccessibility="yes"
-        android:contentDescription="Password input field" />
+        android:layout_marginBottom="8dp">
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:background="@drawable/edittext_background"
+            android:importantForAccessibility="yes"
+            android:contentDescription="Password input field" />
+
+        <!-- Eye Icon for show/hide password -->
+        <ImageView
+            android:id="@+id/iv_show_password"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_eyeclose"
+            android:contentDescription="Show password icon"
+            android:layout_marginEnd="8dp"/>
+    </RelativeLayout>
+
+    <!-- Confirm Password EditText -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+
+        <EditText
+            android:id="@+id/et_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:background="@drawable/edittext_background"
+            android:importantForAccessibility="yes"
+            android:contentDescription="Confirm password input field" />
+
+        <ImageView
+            android:id="@+id/iv_show_confirm_password"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_eyeclose"
+            android:contentDescription="Show confirm password icon"
+            android:layout_marginEnd="8dp"/>
+    </RelativeLayout>
 
     <!-- Terms and Conditions CheckBox -->
     <CheckBox
@@ -49,7 +125,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Read Terms and Conditions"
-        android:textColor="@android:color/holo_blue_dark"
+        android:textColor="#FF4081"
         android:layout_marginBottom="16dp"
         android:clickable="true"
         android:focusable="true"
@@ -62,9 +138,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sign Up"
-        android:background="@color/purple_500"
+        android:background="#654321"
         android:textColor="@android:color/white"
         android:padding="12dp"
+        android:layout_marginBottom="16dp"
         android:importantForAccessibility="yes"
         android:contentDescription="Sign up button" />
 

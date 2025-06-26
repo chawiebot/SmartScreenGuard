@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">SmartScreenGuard</string>
+    <string-array name="time_ranges">
+        <item>Today</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </string-array>
+    <string name="SmartScreenGuard" />
+    <string name="auto_lock_icon" />
+    <string name="study_mode_icon" />
+    <string name="watch_mode_icon" />
+    <string name="good_sleep_icon" />
+    <string name="playtime_icon" />
+    <string name="onboarding_image" />
+    <string name="accessibility_service_description" />
+    <string name="app_blocking_icon" />
+    <string name="block_keywords_icon" />
 </resources>
+

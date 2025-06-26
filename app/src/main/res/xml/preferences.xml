@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Notifications Switch -->
+    <SwitchPreferenceCompat
+        android:key="notifications"
+        android:title="Notifications"
+        android:defaultValue="true" />
+
+    <!-- Permissions Switch -->
+    <SwitchPreferenceCompat
+        android:key="permissions"
+        android:title="Permissions"
+        android:defaultValue="false" />
+
+    <!-- Share App Button -->
+    <Preference
+        android:key="share_app"
+        android:title="Share App"
+        android:icon="@drawable/ic_share" />
+
+    <!-- Send Feedback Button -->
+    <Preference
+        android:key="send_feedback"
+        android:title="Send Feedback" />
+
+</PreferenceScreen>

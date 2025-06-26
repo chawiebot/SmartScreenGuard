@@ -22,7 +22,6 @@
     <color name="primary_dark">#FF3700B3</color>
     <color name="primary_light">#FFBB86FC</color>
     <color name="accent">#FF03DAC5</color>
-    <color name="purple_500">#FF9C27B0</color> <!-- Added this -->
 
     <!-- Background Colors -->
     <color name="background">#FFFAFAFA</color>
@@ -43,4 +42,6 @@
     <color name="custom_cyan">#FF00BCD4</color>
     <color name="custom_lime">#FFCDDC39</color>
     <color name="custom_dark_blue">#FF001F3F</color>
+    <color name="custom_amber">#FFC107</color>
+    <color name="custom_deep_orange">#FF5722</color>
 </resources>
